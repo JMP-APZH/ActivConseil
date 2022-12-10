@@ -20577,7 +20577,9 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@redwoodjs/core": 3.6.1
+    file-loader: ^6.2.0
     prettier-plugin-tailwindcss: ^0.2.1
+    url-loader: ^4.1.1
   languageName: unknown
   linkType: soft
 
