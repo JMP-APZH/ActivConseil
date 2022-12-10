@@ -21,7 +21,9 @@ const WebsiteLayout = ({ children }) => {
       </div>
 
       <ul className="flex flex-row justify-between gap-4 text-yellow-400">
-        <li>
+        <li
+          // className='solid border border-green-500'
+        >
           <Link to={routes.apropos()}>A propos</Link>
         </li>
         <li>
@@ -38,7 +40,7 @@ const WebsiteLayout = ({ children }) => {
       {children}
     </main>
 
-    <footer className="w-full bg-black text-white">
+    <footer className="w-full bg-black text-white p-4 text-yellow-400">
       <ul>
         <li className="text-center">
           Texte pour le bas de la page

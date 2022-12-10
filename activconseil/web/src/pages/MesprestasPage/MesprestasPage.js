@@ -8,10 +8,10 @@ const MesprestasPage = () => {
 
       <h1 className='text-3xl font-bold text-center'>
         <p>
-          Ici sera la page détaillant les prestations
+          Ici sera la page détaillant
         </p>
         <p>
-          d'Activ'Conseils
+        les prestations d'Activ'Conseils
         </p>
       </h1>
     </>

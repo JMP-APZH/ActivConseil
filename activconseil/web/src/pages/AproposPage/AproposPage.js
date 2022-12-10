@@ -13,6 +13,9 @@ const AproposPage = () => {
         <p>
           ce qu'est Activ'Conseils
         </p>
+        <p>
+          et qui est votre conseillère
+        </p>
       </h1>
 
     </>
