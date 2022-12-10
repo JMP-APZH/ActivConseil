@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
-// import logoactivconseils from '-!file-loader!./logoactivconseils.jpg'
+
+import { Link, navigate, routes } from '@redwoodjs/router'
+
 import logoactivconseils from './logoactivconseils.jpg'
 
 const WebsiteLayout = ({ children }) => {
@@ -19,18 +21,19 @@ const WebsiteLayout = ({ children }) => {
 
       <ul className="flex flex-row justify-between gap-4 text-yellow-400">
         <li>
-          A propos
+          <Link to={routes.apropos()}>A propos</Link>
         </li>
         <li>
-          Mes Prestations
+          <Link to={routes.mesprestas()}>Mes Prestations</Link>
         </li>
         <li>
-          Actu Insertion
+          <Link to={routes.blog()}>Actu Insertion</Link>
+
         </li>
       </ul>
     </header>
 
-    <main className="flex justify-center items-center w-full h-full">
+    <main className="flex flex-col justify-center items-center w-full h-full">
       {children}
     </main>
 

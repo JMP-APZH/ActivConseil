@@ -8,7 +8,9 @@ const HomePage = () => {
 
 
     <div className='flex flex-col justify-center items-center bg-white w-full h-full'>
-      <h1>Ici sera le contenu d'accueil</h1>
+      <h1 className='text-3xl font-bold'>
+        Ici sera le contenu d'accueil
+      </h1>
       {/* <p>
         Find me in <code>./web/src/pages/HomePage/HomePage.js</code>
       </p>
