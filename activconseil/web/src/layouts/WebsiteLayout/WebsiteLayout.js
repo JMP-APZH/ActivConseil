@@ -11,6 +11,7 @@ const WebsiteLayout = ({ children }) => {
     <header className="w-full bg-black text-white flex flex-row justify-between items-center p-4">
       <div>
         <img
+          className='rounded-full'
           src={logoactivconseils}
           // src="https://unsplash.com/photos/PonPBrdbiyg"
           alt="logo pic"
