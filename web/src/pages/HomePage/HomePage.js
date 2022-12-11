@@ -8,14 +8,14 @@ const HomePage = () => {
 
       <div className="flex h-full w-full flex-col items-center justify-evenly bg-white">
         {/* <h1 className="text-3xl font-bold">Ici sera le contenu d'accueil</h1> */}
-        <div className="bg-green-500">
-          <p className="-rotate-12">Être bien accompagné</p>
-          <p className="-rotate-12 pb-8">
-            pour une meilleure insertion professionnelle
+        <div className="">
+          <p className="-rotate-12 font-bold text-2xl">Être bien accompagné pour </p>
+          <p className="-rotate-12 pb-8 font-bold text-2xl">
+            une meilleure insertion professionnelle
           </p>
         </div>
 
-        <div className="flex w-full justify-start bg-blue-500">
+        <div className="flex w-full justify-start text-green-500 font-semibold underline">
           <p>Bienvenu chez ACTIV’CONSEILS</p>
         </div>
 
@@ -24,7 +24,7 @@ const HomePage = () => {
           expertise en accompagnement des chercheurs d’emploi à votre service !
         </p>
 
-        <ul className="pl-6 w-full list-disc justify-start bg-blue-500">
+        <ul className="pl-6 w-full list-disc justify-start">
           <li>Révélateur de compétences</li>
           <li>Activateur de projets et d’orientations</li>
           <li>Coach en motivation</li>
@@ -34,7 +34,7 @@ const HomePage = () => {
 
         <div className='w-full'>
           <p>La présidente d’Activ’Conseils</p>
-          <p>Madame MOUTAMALLE</p>
+          <p className="font-semibold">Madame MOUTAMALLE</p>
         </div>
 
 
