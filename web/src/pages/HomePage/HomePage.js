@@ -6,8 +6,38 @@ const HomePage = () => {
     <>
       <MetaTags title="Home" description="Home page" />
 
-      <div className="flex h-full w-full flex-col items-center justify-center bg-white">
-        <h1 className="text-3xl font-bold">Ici sera le contenu d'accueil</h1>
+      <div className="flex h-full w-full flex-col items-center justify-evenly bg-white">
+        {/* <h1 className="text-3xl font-bold">Ici sera le contenu d'accueil</h1> */}
+        <div className="bg-green-500">
+          <p className="-rotate-12">Être bien accompagné</p>
+          <p className="-rotate-12 pb-8">
+            pour une meilleure insertion professionnelle
+          </p>
+        </div>
+
+        <div className="flex w-full justify-start bg-blue-500">
+          <p>Bienvenu chez ACTIV’CONSEILS</p>
+        </div>
+
+        <p>
+          Créée en août 2022, Activ’Conseils a pour ambition de mettre en son
+          expertise en accompagnement des chercheurs d’emploi à votre service !
+        </p>
+
+        <ul className="pl-6 w-full list-disc justify-start bg-blue-500">
+          <li>Révélateur de compétences</li>
+          <li>Activateur de projets et d’orientations</li>
+          <li>Coach en motivation</li>
+        </ul>
+
+        <p className='w-full'>Activ’Conseils c’est ça !!!! </p>
+
+        <div className='w-full'>
+          <p>La présidente d’Activ’Conseils</p>
+          <p>Madame MOUTAMALLE</p>
+        </div>
+
+
         {/* <p>
         Find me in <code>./web/src/pages/HomePage/HomePage.js</code>
       </p>
