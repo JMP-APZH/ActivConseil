@@ -5,7 +5,15 @@ import { Link, navigate, routes } from '@redwoodjs/router'
 import logoactivconseils from './logoactivconseils.jpg'
 
 const WebsiteLayout = ({ children }) => {
-  const [theme, setTheme] = useState('light')
+  const [theme, setTheme] = useState(null)
+
+  useEffect(() => {
+    if(window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setTheme('dark')
+    } else {
+      setTheme('light')
+    }
+  }, [])
 
   useEffect(() => {
     if (theme === 'dark') {
