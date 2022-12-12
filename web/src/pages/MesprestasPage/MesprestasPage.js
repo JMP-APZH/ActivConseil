@@ -8,10 +8,10 @@ const MesprestasPage = () => {
 
       <div className="flex h-full w-full flex-col items-center justify-evenly bg-white p-2">
         <div className="py-6 text-center text-yellow-400">
-          <p className="-rotate-12 text-2xl font-bold">
+          <p className="-rotate-12 text-xl font-bold">
             Être bien accompagné pour
           </p>
-          <p className="-rotate-12 text-2xl font-bold">
+          <p className="-rotate-12 text-xl font-bold">
             une meilleure insertion professionnelle
           </p>
         </div>
@@ -71,7 +71,7 @@ const MesprestasPage = () => {
               Nous, contactez :{' '}
             </p>
             {/* <p className="">Email : activconseils.sasu@gmail.com </p> */}
-            <a href="activconseils.sasu@gmail.com">
+            <a href="mailto:activconseils.sasu@gmail.com">
               <div className="flex gap-2">
                 <p>Email : </p>{' '}
                 <p className="text-blue-600 underline">
