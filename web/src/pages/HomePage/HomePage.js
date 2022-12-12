@@ -8,9 +8,10 @@ const HomePage = () => {
 
       <div className="flex h-full w-full flex-col items-center justify-evenly bg-white p-2">
         {/* <h1 className="text-3xl font-bold">Ici sera le contenu d'accueil</h1> */}
-        <div className="text-center">
+        {/* <div className="text-center bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 p-6"> */}
+        <div className="text-center text-yellow-400">
           <p className="-rotate-12 font-bold text-2xl">Être bien accompagné pour </p>
-          <p className="-rotate-12 pb-8 font-bold text-2xl">
+          <p className="-rotate-12 font-bold text-2xl">
             une meilleure insertion professionnelle
           </p>
         </div>
@@ -20,7 +21,7 @@ const HomePage = () => {
         </div>
 
         <p>
-          Créée en août 2022, Activ’Conseils a pour ambition de mettre en son
+          Créée en août 2022, Activ’Conseils a pour ambition de mettre son
           expertise en accompagnement des chercheurs d’emploi à votre service !
         </p>
 
