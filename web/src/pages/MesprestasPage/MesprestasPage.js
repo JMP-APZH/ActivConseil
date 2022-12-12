@@ -6,7 +6,7 @@ const MesprestasPage = () => {
     <>
       <MetaTags title="Mesprestas" description="Mesprestas page" />
 
-      <div className="flex h-full w-full flex-col items-center justify-evenly bg-white p-2">
+      <div className="flex h-full w-full flex-col items-center justify-evenly bg-white p-2 dark:bg-black">
         <div className="py-6 text-center text-yellow-400">
           <p className="-rotate-12 text-xl font-bold">
             Être bien accompagné pour
@@ -22,7 +22,7 @@ const MesprestasPage = () => {
               Activ’Conseils intervient auprès des demandeurs d’emploi :
             </p>
 
-            <ul className="w-full list-disc justify-start pl-6">
+            <ul className="w-full list-disc justify-start pl-6 dark:text-white">
               <li>
                 informations sur les dispositifs d’accompagnement dans le
                 domaine de l’insertion
@@ -52,7 +52,7 @@ const MesprestasPage = () => {
               Activ’Conseils intervient auprès des scolaires :
             </p>
 
-            <ul className="w-full list-disc justify-start pl-6">
+            <ul className="w-full list-disc justify-start pl-6 dark:text-white">
               <li>
                 Aide à la définition des choix d’orientation / Bilan de
                 compétences ( tests atouts orientations )
@@ -73,7 +73,7 @@ const MesprestasPage = () => {
             {/* <p className="">Email : activconseils.sasu@gmail.com </p> */}
             <a href="mailto:activconseils.sasu@gmail.com">
               <div className="flex gap-2">
-                <p>Email : </p>{' '}
+                <p className='dark:text-white'>Email : </p>{' '}
                 <p className="text-blue-600 underline">
                   activconseils.sasu@gmail.com
                 </p>

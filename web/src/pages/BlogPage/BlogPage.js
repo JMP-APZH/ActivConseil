@@ -6,7 +6,9 @@ const BlogPage = () => {
     <>
       <MetaTags title="Blog" description="Blog page" />
 
-      <h1 className='text-3xl font-bold text-center'>
+      <div className="flex h-full w-full flex-col items-center justify-evenly bg-white p-2 dark:bg-black">
+
+      <h1 className='text-3xl font-bold text-center dark:text-white'>
         <p>
           Ici sera le blog
         </p>
@@ -17,6 +19,8 @@ const BlogPage = () => {
           les actus liées à l'insertion
         </p>
       </h1>
+
+      </div>
     </>
   )
 }
