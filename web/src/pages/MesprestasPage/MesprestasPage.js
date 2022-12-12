@@ -71,7 +71,7 @@ const MesprestasPage = () => {
               Nous, contactez :{' '}
             </p>
             {/* <p className="">Email : activconseils.sasu@gmail.com </p> */}
-            <a href="mailto:philocles.jeanmarie@gmail.com">
+            <a href="activconseils.sasu@gmail.com">
               <div className="flex gap-2">
                 <p>Email : </p>{' '}
                 <p className="text-blue-600 underline">
