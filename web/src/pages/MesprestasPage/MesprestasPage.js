@@ -7,7 +7,7 @@ const MesprestasPage = () => {
       <MetaTags title="Mesprestas" description="Mesprestas page" />
 
       <div className="flex h-full w-full flex-col items-center justify-evenly bg-white p-2 dark:bg-black">
-        <div className="py-6 text-center text-yellow-400">
+        <div className="pt-8 pb-10 text-center text-yellow-400">
           <p className="-rotate-12 text-xl font-bold">
             Être bien accompagné pour
           </p>

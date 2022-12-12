@@ -22,7 +22,7 @@ const WebsiteLayout = ({ children }) => {
   return (
     <>
       <div className="flex h-screen w-screen flex-col items-center justify-center">
-        <header className="flex w-full flex-row items-center justify-between bg-black p-4 text-white dark:border border-yellow-500">
+        <header className="flex w-full flex-row items-center justify-between bg-black pt-6 pb-4 px-2 text-white">
           <Link to={routes.home()}>
             <div>
               <img
@@ -65,7 +65,7 @@ const WebsiteLayout = ({ children }) => {
         </main>
 
         <div className="flex w-screen flex-col">
-          <footer className="w-full bg-black p-4 text-yellow-400 dark:border border-yellow-500">
+          <footer className="w-full bg-black p-4 text-yellow-400">
             <ul>
               <li className="text-center">
                 Espace pour le texte pour de bas de page

@@ -7,19 +7,11 @@ const BlogPage = () => {
       <MetaTags title="Blog" description="Blog page" />
 
       <div className="flex h-full w-full flex-col items-center justify-evenly bg-white p-2 dark:bg-black">
-
-      <h1 className='text-3xl font-bold text-center dark:text-white'>
-        <p>
-          Ici sera le blog
-        </p>
-        <p>
-          où l'utilisateur trouvera
-        </p>
-        <p>
-          les actus liées à l'insertion
-        </p>
-      </h1>
-
+        <h1 className="text-center text-3xl font-bold dark:text-white">
+          <p>Ici sera le blog</p>
+          <p>où l’utilisateur trouvera</p>
+          <p>les actus liées à l’insertion</p>
+        </h1>
       </div>
     </>
   )
