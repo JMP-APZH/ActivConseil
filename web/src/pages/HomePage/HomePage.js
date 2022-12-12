@@ -31,7 +31,7 @@ const HomePage = () => {
           <li>Coach en motivation</li>
         </ul>
 
-        <p className='w-full'>Activ’Conseils c’est ça !!!! </p>
+        <p className='w-full'>Activ’Conseils c’est ça ! </p>
 
         <div className='w-full'>
           <p>La présidente d’Activ’Conseils</p>

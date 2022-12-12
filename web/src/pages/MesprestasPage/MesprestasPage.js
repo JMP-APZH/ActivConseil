@@ -7,7 +7,7 @@ const MesprestasPage = () => {
       <MetaTags title="Mesprestas" description="Mesprestas page" />
 
       <div className="flex h-full w-full flex-col items-center justify-evenly bg-white p-2">
-        <div className="pb-4 text-center text-yellow-400">
+        <div className="py-6 text-center text-yellow-400">
           <p className="-rotate-12 text-2xl font-bold">
             Être bien accompagné pour
           </p>
@@ -17,7 +17,7 @@ const MesprestasPage = () => {
         </div>
 
         <div>
-          <div className="pb-6">
+          <div className="pb-4 text-sm">
             <p className="pb-2 font-semibold text-green-500">
               Activ’Conseils intervient auprès des demandeurs d’emploi :
             </p>
@@ -47,7 +47,7 @@ const MesprestasPage = () => {
             </ul>
           </div>
 
-          <div className="pb-6">
+          <div className="pb-4 text-sm">
             <p className="pb-2 font-semibold text-green-500">
               Activ’Conseils intervient auprès des scolaires :
             </p>
@@ -65,16 +65,19 @@ const MesprestasPage = () => {
               </li>
             </ul>
           </div>
-          <div>
+
+          <div className="text-sm">
             <p className="pb-2 font-semibold text-green-500">
               Nous, contactez :{' '}
             </p>
             {/* <p className="">Email : activconseils.sasu@gmail.com </p> */}
             <a href="mailto:philocles.jeanmarie@gmail.com">
-            <div className="flex gap-2">
-              <p>Email : </p> <p className="text-blue-600 underline">activconseils.sasu@gmail.com</p>
-            </div>
-
+              <div className="flex gap-2">
+                <p>Email : </p>{' '}
+                <p className="text-blue-600 underline">
+                  activconseils.sasu@gmail.com
+                </p>
+              </div>
             </a>
           </div>
         </div>
