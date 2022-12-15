@@ -30,7 +30,7 @@ const WebsiteLayout = ({ children }) => {
   return (
     <>
       <div className="flex h-screen w-screen flex-col items-center justify-center">
-        <header className="flex w-screen flex-row items-center justify-between bg-black pt-28 pb-2 pl-2 pr-4 text-white">
+        <header className="flex w-screen flex-row items-center justify-between bg-black pt-4 pb-2 pl-2 pr-4 text-white">
           <Link to={routes.home()}>
             <div>
               <img
@@ -73,14 +73,14 @@ const WebsiteLayout = ({ children }) => {
         </main>
 
         <div className="flex w-screen flex-col">
-          <footer className="w-screen bg-black p-4 text-yellow-400">
+          <footer className="w-screen bg-black pb-14 pt-10 text-yellow-400">
             <ul>
               <li className="text-center">
                 Espace pour le texte pour de bas de page
               </li>
             </ul>
           </footer>
-          <div className="h-10 w-full bg-black">
+          <div className="h-20 w-full bg-black">
             This space needs to disappear
           </div>
         </div>

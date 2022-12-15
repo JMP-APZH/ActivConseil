@@ -20,21 +20,21 @@ const HomePage = () => {
           </h1>
         </div>
 
-        <div className="flex gap-4 p-2 w-screen">
+        <div className="flex gap-4 p-2">
           <img
             className="rounded-2xl"
             src={salleformation1}
             alt="logo pic"
-            width="300"
-            height="300"
+            width="150"
+            height="150"
           />
 
           <img
             className="rounded-2xl"
             src={salleformation2}
             alt="logo pic"
-            width="300"
-            height="300"
+            width="150"
+            height="150"
           />
         </div>
 
