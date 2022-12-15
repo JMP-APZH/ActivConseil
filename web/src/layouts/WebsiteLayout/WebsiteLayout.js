@@ -73,7 +73,7 @@ const WebsiteLayout = ({ children }) => {
         </main>
 
         <div className="flex w-screen flex-col">
-          <footer className="w-screen bg-black pb-14 pt-10 text-yellow-400">
+          <footer className="w-screen bg-black pb- pt-10 text-yellow-400">
             <ul>
               <li className="text-center">
                 Espace pour le texte pour de bas de page
