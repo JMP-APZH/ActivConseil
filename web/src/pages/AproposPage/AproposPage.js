@@ -10,12 +10,10 @@ const AproposPage = () => {
         {/* <h1 className="text-3xl font-bold">Ici sera le contenu d'accueil</h1> */}
         {/* <div className="text-center bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 p-6"> */}
         <div className="text-center text-yellow-400">
-          <p className="-rotate-12 text-2xl font-bold">
-            Être bien accompagné pour{' '}
-          </p>
-          <p className="-rotate-12 text-2xl font-bold">
-            une meilleure insertion professionnelle
-          </p>
+        <h1 className="text-5xl">Être bien accompagné</h1>
+          <h1 className="text-5xl">
+            pour une meilleure insertion professionnelle
+          </h1>
         </div>
 
         <p>

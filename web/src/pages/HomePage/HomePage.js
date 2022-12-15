@@ -38,7 +38,7 @@ const HomePage = () => {
           />
         </div>
 
-        <div className="flex w-full justify-start font-semibold text-green-500 underline">
+        <div className="flex w-full justify-start font-semibold text-green-500 underline pt-4">
           <p>Bienvenu chez ACTIV’CONSEILS</p>
         </div>
 
@@ -53,9 +53,9 @@ const HomePage = () => {
           <li>Coach en motivation</li>
         </ul>
 
-        <p className="w-full dark:text-white">Activ’Conseils c’est ça ! </p>
+        <p className="w-full dark:text-white p-2">Activ’Conseils c’est ça ! </p>
 
-        <div className="w-full dark:text-white">
+        <div className="w-full dark:text-white p-2">
           <p>La présidente d’Activ’Conseils</p>
           <p className="font-semibold">Madame MOUTAMALLE</p>
         </div>

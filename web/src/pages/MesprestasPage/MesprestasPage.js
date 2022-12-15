@@ -8,12 +8,10 @@ const MesprestasPage = () => {
 
       <div className="flex h-full w-full flex-col items-center justify-evenly bg-white p-2 dark:bg-black">
         <div className="pt-8 pb-10 text-center text-yellow-400">
-          <p className="-rotate-12 text-xl font-bold">
-            Être bien accompagné pour
-          </p>
-          <p className="-rotate-12 text-xl font-bold">
-            une meilleure insertion professionnelle
-          </p>
+        <h1 className="text-5xl">Être bien accompagné</h1>
+          <h1 className="text-5xl">
+            pour une meilleure insertion professionnelle
+          </h1>
         </div>
 
         <div>
