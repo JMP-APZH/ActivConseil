@@ -80,7 +80,7 @@ const WebsiteLayout = ({ children }) => {
               </li>
             </ul>
           </footer>
-          <div className="h-20 w-full bg-black">
+          <div className="h-10 w-full bg-black">
             This space needs to disappear
           </div>
         </div>
