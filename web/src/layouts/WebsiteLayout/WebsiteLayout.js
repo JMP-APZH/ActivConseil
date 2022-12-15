@@ -30,7 +30,7 @@ const WebsiteLayout = ({ children }) => {
   return (
     <>
       <div className="flex h-screen w-screen flex-col items-center justify-center">
-        <header className="flex w-screen flex-row items-center justify-between bg-black pt-8 pb-2 pl-2 pr-4 text-white">
+        <header className="flex w-screen flex-row items-center justify-between bg-black pt-20 pb-2 pl-2 pr-4 text-white">
           <Link to={routes.home()}>
             <div>
               <img
