@@ -30,7 +30,7 @@ const WebsiteLayout = ({ children }) => {
   return (
     <>
       <div className="flex h-screen w-screen flex-col items-center justify-center">
-        <header className="flex w-full flex-row items-center justify-between bg-black pt-6 pb-4 px-2 text-white">
+        <header className="flex w-full flex-row items-center justify-between bg-black pt-28 pb-2 pl-2 pr-4 text-white">
           <Link to={routes.home()}>
             <div>
               <img
@@ -80,7 +80,7 @@ const WebsiteLayout = ({ children }) => {
               </li>
             </ul>
           </footer>
-          <div className="h-20 w-full bg-black">
+          <div className="h-10 w-full bg-black">
             This space needs to disappear
           </div>
         </div>

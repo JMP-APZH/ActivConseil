@@ -1,5 +1,9 @@
 import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
+import './HomePage.css'
+
+import salleformation1 from './salleformation1.jpg'
+import salleformation2 from './salleformation2.jpg'
 
 const HomePage = () => {
   return (
@@ -9,12 +13,34 @@ const HomePage = () => {
       <div className="flex h-full w-full flex-col items-center justify-evenly bg-white dark:bg-black p-2">
         {/* <h1 className="text-3xl font-bold">Ici sera le contenu d'accueil</h1> */}
         {/* <div className="text-center bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 p-6"> */}
-        <div className="text-center text-yellow-400">
-          <p className="-rotate-12 font-bold text-2xl">Être bien accompagné pour </p>
-          <p className="-rotate-12 font-bold text-2xl">
-            une meilleure insertion professionnelle
-          </p>
+        <div className="text-center text-black dark:text-white">
+          <h1
+            className="text-5xl"
+          >
+            Être bien accompagné
+          </h1>
+          <h1 className="text-5xl">
+          pour une meilleure insertion professionnelle
+          </h1>
         </div>
+
+        <div className='flex gap-4 p-2'>
+              <img
+                className="rounded-2xl"
+                src={salleformation1}
+                alt="logo pic"
+                width="300"
+                height="300"
+              />
+
+<img
+                className="rounded-2xl"
+                src={salleformation2}
+                alt="logo pic"
+                width="300"
+                height="300"
+              />
+            </div>
 
         <div className="flex w-full justify-start text-green-500 font-semibold underline">
           <p>Bienvenu chez ACTIV’CONSEILS</p>
