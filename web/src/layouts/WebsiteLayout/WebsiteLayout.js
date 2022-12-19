@@ -43,8 +43,8 @@ const WebsiteLayout = ({ children }) => {
                   src={logoactivconseils_b}
                   // src="https://unsplash.com/photos/PonPBrdbiyg"
                   alt="logo pic"
-                  width="90"
-                  height="100"
+                  width="80"
+                  height="80"
                 />
               ) : (
                 <img
