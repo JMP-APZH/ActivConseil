@@ -4,9 +4,9 @@ import { Link, navigate, routes } from '@redwoodjs/router'
 
 import logoactivconseils_w from './logoactivconseils_w.jpg'
 
-import logoactivconseils_b from './logoactivconseils_b.jpg'
+import logoactivconseils_b from './activeconseilslogo_black.png'
 
-import threedyingyang from './yin-yang.jpg'
+import threedyingyang from './yinyang4_2.jpg'
 
 const WebsiteLayout = ({ children }) => {
   const [theme, setTheme] = useState(null)
@@ -34,7 +34,7 @@ const WebsiteLayout = ({ children }) => {
   return (
     <>
       <div className="flex h-screen w-screen flex-col items-center justify-center">
-        <header className="flex w-screen flex-row items-center justify-between pt-20 pb-2 pl-2 pr-4 text-white dark:bg-black">
+        <header className="flex w-screen flex-row items-center justify-between pt-20 pb-2 pl-2 pr-2 text-white dark:bg-black">
           <Link to={routes.home()}>
             <div>
               {theme === 'dark' ? (
@@ -43,8 +43,8 @@ const WebsiteLayout = ({ children }) => {
                   src={logoactivconseils_b}
                   // src="https://unsplash.com/photos/PonPBrdbiyg"
                   alt="logo pic"
-                  width="100"
-                  height="50"
+                  width="90"
+                  height="100"
                 />
               ) : (
                 <img
@@ -59,35 +59,45 @@ const WebsiteLayout = ({ children }) => {
             </div>
           </Link>
 
-          <button
-            className="bg-white p-1 font-bold text-black"
-            onClick={handleThemeSwitch}
-          >
-            <img
-              className="rounded-full"
-              src={threedyingyang}
-              // src="https://unsplash.com/photos/PonPBrdbiyg"
-              alt="logo pic"
-              width="50"
-              height="50"
-            />
-          </button>
+          <div className="flex">
+            <ul className="flex flex-row items-end justify-center gap-1 pl-2 pr-1 pb-3 text-xs text-black dark:text-yellow-400">
 
-          <ul className="flex flex-row items-end justify-end gap-4 text-xs text-black dark:text-yellow-400">
             <li
-            // className='solid border border-green-500'
+              // className='solid border border-green-500'
+              >
+                <Link className="" to={routes.home()}>
+                  Accueil
+                </Link>
+              </li>
+              <li
+              // className='solid border border-green-500'
+              >
+                <Link className="" to={routes.apropos()}>
+                  A propos
+                </Link>
+              </li>
+              <li>
+                <Link to={routes.mesprestas()}>Mes Prestations</Link>
+              </li>
+              <li>
+                <Link to={routes.blog()}>Actu Insertion</Link>
+              </li>
+            </ul>
+
+            <button
+              className="w-50 h-50 rounded-full bg-white p-1 font-bold text-black dark:bg-black"
+              onClick={handleThemeSwitch}
             >
-              <Link className="" to={routes.apropos()}>
-                A propos
-              </Link>
-            </li>
-            <li>
-              <Link to={routes.mesprestas()}>Mes Prestations</Link>
-            </li>
-            <li>
-              <Link to={routes.blog()}>Actu Insertion</Link>
-            </li>
-          </ul>
+              <img
+                className="rounded-full"
+                src={threedyingyang}
+                // src="https://unsplash.com/photos/PonPBrdbiyg"
+                alt="logo pic"
+                width="30"
+                height="30"
+              />
+            </button>
+          </div>
         </header>
 
         <main className="flex h-screen w-screen flex-col items-center justify-center">
